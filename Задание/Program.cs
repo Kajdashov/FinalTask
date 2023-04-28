@@ -7,8 +7,7 @@
 // ["1234", "1567", "-2", "computer science"] -> ["-2"]
 // ["Russia", "Denmark", "Kazan"] -> []
 
-string[] array = { "hello", "2", "world", ":-)", "1234", "1567", "Rus",
-"-2", "computer science", "Russia", "Denmark", "Kazan", "GB", "GBU" };
+string[] array = { "hello", "2", "world", ":-)"};
 int count = ArrayCheck(array);
 string[] resultArray = FillResultArray(array, count);
 int ArrayCheck(string[] array)
